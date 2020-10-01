@@ -6,6 +6,7 @@
 //  Copyright © 2019 threesidedcube. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// A subclass of `TSCButton` which enables automatic font adjustments, and allows for multi-line text
@@ -63,3 +64,4 @@ open class AccessibleButton: TSCButton {
         super.layoutSubviews()
     }
 }
+#endif

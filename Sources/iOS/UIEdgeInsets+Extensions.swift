@@ -6,7 +6,7 @@
 //  Copyright © 2020 threesidedcube. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public extension UIEdgeInsets {
     

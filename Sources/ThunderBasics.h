@@ -14,14 +14,3 @@ FOUNDATION_EXPORT double ThunderBasicsVersionNumber;
 //! Project version string for ThunderBasics.
 FOUNDATION_EXPORT const unsigned char ThunderBasicsVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <ThunderBasics/PublicHeader.h>
-
-// Categories
-#import <ThunderBasics/NSObject+AddedProperties.h>
-
-//Controllers
-#import <ThunderBasics/TSCContactsController.h>
-#import <ThunderBasics/TSCiCloudController.h>
-
-//People
-#import <ThunderBasics/TSCPerson.h>

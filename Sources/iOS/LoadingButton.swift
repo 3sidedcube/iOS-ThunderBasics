@@ -6,7 +6,7 @@
 //  Copyright © 2016 threesidedcube. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /**
  An extension on UIButton which allows replacing the title of the button with a loading indicator

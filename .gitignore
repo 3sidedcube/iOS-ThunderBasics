@@ -33,3 +33,5 @@ DerivedData
 
 Carthage/Build
 ThunderBasics.framework.zip
+
+.build
