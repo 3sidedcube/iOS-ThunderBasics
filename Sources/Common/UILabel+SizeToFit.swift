@@ -6,6 +6,7 @@
 //  Copyright © 2018 threesidedcube. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 extension UILabel {
@@ -18,3 +19,4 @@ extension UILabel {
         set(size: constrainedSize)
     }
 }
+#endif

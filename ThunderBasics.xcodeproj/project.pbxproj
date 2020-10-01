@@ -138,7 +138,7 @@
 		B146C3B3219055BB00A1DBCD /* UIImage+RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+RoundedCorners.swift"; path = "iOS/UIImage+RoundedCorners.swift"; sourceTree = "<group>"; };
 		B146C3B52190570C00A1DBCD /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Resize.swift"; path = "iOS/UIImage+Resize.swift"; sourceTree = "<group>"; };
 		B146C3BB219071F700A1DBCD /* UIView+Pop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Pop.swift"; path = "iOS/UIView+Pop.swift"; sourceTree = "<group>"; };
-		B146C3BD21908A6700A1DBCD /* UILabel+SizeToFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UILabel+SizeToFit.swift"; path = "iOS/UILabel+SizeToFit.swift"; sourceTree = "<group>"; };
+		B146C3BD21908A6700A1DBCD /* UILabel+SizeToFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UILabel+SizeToFit.swift"; path = "Common/UILabel+SizeToFit.swift"; sourceTree = "<group>"; };
 		B146C3BF21908AFA00A1DBCD /* CAGradientLayer+AutoGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CAGradientLayer+AutoGradient.swift"; path = "iOS/CAGradientLayer+AutoGradient.swift"; sourceTree = "<group>"; };
 		B146C3CD2190978900A1DBCD /* UIColorHexStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHexStringTests.swift; sourceTree = "<group>"; };
 		B146C3D02190A1AC00A1DBCD /* UIColor+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Helpers.swift"; path = "iOS/UIColor+Helpers.swift"; sourceTree = "<group>"; };
