@@ -22,16 +22,7 @@ public class AutoUpdatingContact {
     /// properties that `AutoUpdatingContact` doesn't directly expose
     public var contact: CNContact {
         didSet {
-            #if canImport(UIKit)
-            if let imageData = contact.imageData {
-                largeImage = UIImage(data: imageData)
-            }
-            if let thumbnailData = contact.thumbnailImageData {
-                photo = UIImage(data: thumbnailData)
-            } else if let initials = initials {
-                photo = AutoUpdatingContact.contactPlaceholder(initials: initials)
-            }
-            #endif
+            setupImages()
         }
     }
     
@@ -49,6 +40,20 @@ public class AutoUpdatingContact {
                 self?.contact = contact
             }
         )
+        setupImages()
+    }
+    
+    private func setupImages() {
+        #if canImport(UIKit)
+        if let imageData = contact.imageData {
+            largeImage = UIImage(data: imageData)
+        }
+        if let thumbnailData = contact.thumbnailImageData {
+            photo = UIImage(data: thumbnailData)
+        } else if let initials = initials {
+            photo = AutoUpdatingContact.contactPlaceholder(initials: initials)
+        }
+        #endif
     }
     
     /// Returns the contact's first name
