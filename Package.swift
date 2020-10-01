@@ -24,10 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ThunderBasics",
-            dependencies: [
-                .target(name: "iOS", condition: .when(platforms: [.iOS]))
-            ],
-            path: "Sources/Common",
+            path: "Sources",
             exclude: ["Info.plist"],
             resources: [
                 .process("Locale Language Codes/iso639_2.bundle")
@@ -35,10 +32,6 @@ let package = Package(
             linkerSettings: [
                 .linkedFramework("UIKit", .when(platforms: [.iOS]))
             ]),
-        .target(
-            name: "iOS",
-            path: "Sources/iOS",
-            exclude: ["Info.plist"]),
         .testTarget(
             name: "ThunderBasicsTests",
             dependencies: ["ThunderBasics"],
