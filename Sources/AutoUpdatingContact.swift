@@ -92,7 +92,7 @@ public class AutoUpdatingContact {
             components = [companyName]
         }
         guard !components.isEmpty else { return nil }
-        return components.joined(separator: "")
+        return components.map({ $0.prefix(1) }).joined(separator: "")
     }
     
     /// Returns the contact's company name
