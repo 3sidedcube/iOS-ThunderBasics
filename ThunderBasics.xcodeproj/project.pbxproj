@@ -36,6 +36,8 @@
 		B118E8342525D15400DA6190 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118E8332525D15400DA6190 /* Notifier.swift */; };
 		B118E8352525D15400DA6190 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118E8332525D15400DA6190 /* Notifier.swift */; };
 		B118E8412525D23900DA6190 /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118E8402525D23900DA6190 /* UIEdgeInsets+Extensions.swift */; };
+		B118E8F82527823F00DA6190 /* Bundle+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118E8F72527823F00DA6190 /* Bundle+Current.swift */; };
+		B118E8F92527823F00DA6190 /* Bundle+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118E8F72527823F00DA6190 /* Bundle+Current.swift */; };
 		B1212A252321643800B43379 /* AccessibleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1212A242321643800B43379 /* AccessibleButton.swift */; };
 		B12BD5E01C48052000D07A58 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BD5DF1C48052000D07A58 /* LoadingButton.swift */; };
 		B13271B5252397D500448C84 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13271B4252397D500448C84 /* ContactsController.swift */; };
@@ -129,6 +131,7 @@
 		B118E8262525D14900DA6190 /* MapView+Fitting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MapView+Fitting.swift"; path = "Common/MapView+Fitting.swift"; sourceTree = "<group>"; };
 		B118E8332525D15400DA6190 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifier.swift; path = Common/Notifier.swift; sourceTree = "<group>"; };
 		B118E8402525D23900DA6190 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
+		B118E8F72527823F00DA6190 /* Bundle+Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Current.swift"; sourceTree = "<group>"; };
 		B1212A242321643800B43379 /* AccessibleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccessibleButton.swift; path = Common/AccessibleButton.swift; sourceTree = "<group>"; };
 		B12BD5DF1C48052000D07A58 /* LoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 		B13271B4252397D500448C84 /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
@@ -470,6 +473,7 @@
 				B1898CCF230D7A7600A1F5D1 /* Accessibility */,
 				B163D2FC1FB33F5100BF4CEC /* Fonts */,
 				C272EFB919C8325D004BD339 /* ThunderBasics.h */,
+				B118E8F72527823F00DA6190 /* Bundle+Current.swift */,
 				B12BD5DE1C48043600D07A58 /* Views */,
 				B120905B1BBABE9500AAB2E9 /* Core Spotlighting */,
 				B1E3C5D91B626DCC005CC1C1 /* Location Management */,
@@ -755,6 +759,7 @@
 				B118E8282525D14900DA6190 /* MapView+Fitting.swift in Sources */,
 				B118E8082525D04800DA6190 /* JSONSerialization+FromFile.swift in Sources */,
 				B118E8052525D02200DA6190 /* DateHelpers.swift in Sources */,
+				B118E8F92527823F00DA6190 /* Bundle+Current.swift in Sources */,
 				B190A862228DC6E400E44821 /* Locale+ISO639_2.swift in Sources */,
 				B118E8352525D15400DA6190 /* Notifier.swift in Sources */,
 				B118E81B2525D07000DA6190 /* String+Extensions.swift in Sources */,
@@ -832,6 +837,7 @@
 				B1E6FC49218C729500971DC3 /* UIColor+Comparison.swift in Sources */,
 				B118E81A2525D07000DA6190 /* String+Extensions.swift in Sources */,
 				B100A85124C9AF7400562777 /* CALayer+CornerCurve.swift in Sources */,
+				B118E8F82527823F00DA6190 /* Bundle+Current.swift in Sources */,
 				B100A85224C9AF7400562777 /* CALayer+Shadow.swift in Sources */,
 				B1898CD1230D7A9000A1F5D1 /* AccessibilityRefreshingViewController.swift in Sources */,
 				B152AC501F20BF020079372B /* DateHelpers.swift in Sources */,

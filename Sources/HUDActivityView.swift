@@ -93,7 +93,7 @@ public class HUDActivityView: UIView {
         
         switch style {
         case .logo:
-            logoView = UIImageView(image: UIImage(named: "MDCLoadingLogo", in: Bundle(for: type(of: self)), compatibleWith: nil))
+            logoView = UIImageView(image: UIImage(named: "MDCLoadingLogo", in: .current, compatibleWith: nil))
             addSubview(logoView!)
         case .minimal:
             activityIndicator?.color = .black
