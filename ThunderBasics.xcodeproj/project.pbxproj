@@ -128,8 +128,8 @@
 		B118E7FB2525D00E00DA6190 /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexString.swift"; sourceTree = "<group>"; };
 		B118E8062525D04800DA6190 /* JSONSerialization+FromFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONSerialization+FromFile.swift"; sourceTree = "<group>"; };
 		B118E8192525D07000DA6190 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		B118E8262525D14900DA6190 /* MapView+Fitting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MapView+Fitting.swift"; path = "Common/MapView+Fitting.swift"; sourceTree = "<group>"; };
-		B118E8332525D15400DA6190 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifier.swift; path = Common/Notifier.swift; sourceTree = "<group>"; };
+		B118E8262525D14900DA6190 /* MapView+Fitting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapView+Fitting.swift"; sourceTree = "<group>"; };
+		B118E8332525D15400DA6190 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
 		B118E8402525D23900DA6190 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
 		B118E8F72527823F00DA6190 /* Bundle+Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Current.swift"; sourceTree = "<group>"; };
 		B1212A242321643800B43379 /* AccessibleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccessibleButton.swift; path = Common/AccessibleButton.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		B16234D11C91F775001669BA /* ThunderBasicsMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThunderBasicsMac.h; sourceTree = "<group>"; };
 		B163D2FD1FB33F6C00BF4CEC /* DynamicFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DynamicFont.swift; path = iOS/DynamicFont.swift; sourceTree = "<group>"; };
 		B1740ACE24B5BDCF00915122 /* nyt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nyt.jpg; path = Resources/Images/nyt.jpg; sourceTree = "<group>"; };
-		B1898CD0230D7A9000A1F5D1 /* AccessibilityRefreshingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccessibilityRefreshingViewController.swift; path = iOS/AccessibilityRefreshingViewController.swift; sourceTree = "<group>"; };
+		B1898CD0230D7A9000A1F5D1 /* AccessibilityRefreshingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityRefreshingViewController.swift; sourceTree = "<group>"; };
 		B1AB3E732513BA6600E6823D /* IBMigrationTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IBMigrationTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AB3E752513BA6600E6823D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B1B6CFA71C4E5BC300CDC978 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
