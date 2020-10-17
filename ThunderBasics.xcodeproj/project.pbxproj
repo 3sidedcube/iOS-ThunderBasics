@@ -132,7 +132,7 @@
 		B118E8332525D15400DA6190 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
 		B118E8402525D23900DA6190 /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
 		B118E8F72527823F00DA6190 /* Bundle+Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Current.swift"; sourceTree = "<group>"; };
-		B1212A242321643800B43379 /* AccessibleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccessibleButton.swift; path = Common/AccessibleButton.swift; sourceTree = "<group>"; };
+		B1212A242321643800B43379 /* AccessibleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibleButton.swift; sourceTree = "<group>"; };
 		B12BD5DF1C48052000D07A58 /* LoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 		B13271B4252397D500448C84 /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
 		B13271D92523A0A400448C84 /* AutoUpdatingContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoUpdatingContact.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		B1AB3E732513BA6600E6823D /* IBMigrationTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IBMigrationTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AB3E752513BA6600E6823D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B1B6CFA71C4E5BC300CDC978 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		B1D15F6A2360A18D0086E23F /* CarouselAccessibilityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarouselAccessibilityElement.swift; path = iOS/CarouselAccessibilityElement.swift; sourceTree = "<group>"; };
+		B1D15F6A2360A18D0086E23F /* CarouselAccessibilityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselAccessibilityElement.swift; sourceTree = "<group>"; };
 		B1D8A8542514C4C7005C02F6 /* IBMigrationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBMigrationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D8A8562514C4C7005C02F6 /* IBMigrationToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBMigrationToolTests.swift; sourceTree = "<group>"; };
 		B1D8A8582514C4C7005C02F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
