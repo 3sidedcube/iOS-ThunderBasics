@@ -9,7 +9,7 @@
 import UIKit
 
 
-protocol CornerObservableLayerDelegate: class {
+protocol CornerObservableLayerDelegate: AnyObject {
     
     func cornerObservableLayer(_ layer: CornerObservableLayer, didUpdateCornerRadius cornerRadius: CGFloat)
     
